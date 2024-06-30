@@ -20,7 +20,7 @@ const createNav = () => {
       </div>
     </div>
     <ul class="links-container">
-      <li class="link-item"><a href="../mainpage.html" class="link">home</a></li>
+      <li class="link-item"><a href="../index.html" class="link">home</a></li>
      <li class="link-item"><a href="../bath&body.html" class="link">Bath&Body</a></li>
       <li class="link-item"><a href="../facewash&oil.html" class="link">facewash</a></li>
       <li class="link-item"><a href="../cream&lipbalm.html" class="link">cream</a></li>
@@ -35,7 +35,7 @@ const createNav = () => {
 createNav();
 
 //nav popup
-const userImageButton = document.querySelector('#user-img'); 
+const userImageButton = document.querySelector('#user-img');
 const userPopup = document.querySelector('.login-logout-popup');
 const popuptext = document.querySelector('.account-info');
 const actionBtn = document.querySelector('#user-btn');
@@ -44,7 +44,7 @@ userImageButton.addEventListener('click', () => {
   userPopup.classList.toggle('hide');
 })
 
-window.onload = () => {  
+window.onload = () => {
   let user = JSON.parse(sessionStorage.user || null);
   if (user != null) {
     //means user is logged in   

@@ -20,7 +20,7 @@ app.use(express.static(staticPath));
 app.use(express.json());
 
 app.get("/", (req, res) => {
-    res.sendFile(path.join(staticPath, "mainpage.html"));
+    res.sendFile(path.join(staticPath, "index.html"));
 })
 
 //signup
