@@ -1,0 +1,689 @@
+{
+    "products": [
+        {
+            "id": "de-tan-facewash",
+            "name": "DE-TAN Facewash",
+            "description": "fight from tanning, lightens and evens out skin tone. ",
+            "price": "180",
+            "actualPrice": "240",
+            "backgroundimage": "../images/charcoal.jpeg",
+            "discount": "25%",
+            "extrades": " with oil beads ₹199",
+            "extraprice": "270",
+            "longdescription": "Paraben and sulphate-free. Suitable for all skin types, maintaining natural moisture balance. De-tan face wash, rich in natural antioxidants, helps reduce discoloration and targets blemishes gently. It decreases UV damage, eliminates dead skin cells, dirt, and pollutants, and reduces the appearance of dark circles, leaving skin soft, smooth, and visibly fairer.",
+            "images": [
+                "../images/charcoal.jpeg ",
+                "../images/charcoalsoap.png",
+                "../images/coconut.jpeg",
+                "../images/lavender.jpg"
+            ]
+        },
+        {
+            "id": "rose-facewash",
+            "name": "Rose Face Wash",
+            "description": "Infused with the soothing essence of roses, this face wash gently cleanses and refreshes your skin, leaving it soft and hydrated. Ideal for all skin types, it helps maintain the skin's natural moisture balance.",
+            "price": "180",
+            "actualPrice": "240",
+            "backgroundimage": "../images/rose-facewash.jpg",
+            "discount": "25%",
+            "extrades": "with organic rose extracts ₹199",
+            "extraprice": "270",
+            "longdescription": "Paraben and sulphate-free. Suitable for all skin types, maintaining natural moisture balance. Experience a natural glow with Rose Face Wash, enriched with organic rose extracts, essential oils, Vitamin E that rejuvenate, refresh, and energize your skin. This face wash thoroughly cleanses, removes dirt and impurities while enhancing skin tone and texture. It provides a powerful natural radiance, leaving your skin healthy, youthful, and glowing. The invigorating fragrance of organic rose accompanies each wash.",
+            "images": [
+                "../images/rose-facewash.jpg",
+                "../images/rose2.jpg",
+                "../images/rose3.jpg",
+                "../images/rose4.jpg"
+            ]
+        },
+        {
+            "id": "coffee-facewash",
+            "name": "Coffee Face Wash",
+            "description": "Enriched with the invigorating properties of coffee, this face wash exfoliates and revitalizes your skin, promoting a radiant and youthful appearance. Perfect for tired and dull skin, it helps to rejuvenate and energize.",
+            "price": "180",
+            "actualPrice": "240",
+            "backgroundimage": "../images/coffee-facewash.jpg",
+            "discount": "25%",
+            "extrades": "with pure Coffee beans ₹199",
+            "extraprice": "270",
+            "longdescription": "Free from harmful chemicals like SLS and Paraben. Suitable for all skin types, maintaining natural moisture balance. Kickstart your day with Coffee Face Wash, packed with pure Coffee beans, essential oils, Vitamin E to energize your skin. This face wash, suitable for both women and men. The energizing coffee bean aroma perks up your senses. Enriched with coffee for exfoliation and revitalization.",
+            "images": [
+                "../images/coffee-facewash.jpg",
+                "../images/coffee-facewash1.jpg",
+                "../images/coffee-facewash2.jpg",
+                "../images/coffee-facewash3.jpg"
+            ]
+        },
+        {
+            "id": "lemon-facewash",
+            "name": "Lemon Face Wash",
+            "description": "Bursting with the zesty freshness of lemons, this face wash purifies and brightens your skin. Its natural astringent properties help to reduce excess oil and fight acne, leaving your skin clear and glowing..",
+            "price": "180",
+            "actualPrice": "240",
+            "backgroundimage": "../images/lemon-facewash.jpg",
+            "discount": "25%",
+            "extrades": "with pure Coffee beans ₹199",
+            "extraprice": "270",
+            "longdescription": "<strong>Paraben and sulphate-free. Suitable for all skin types, maintaining natural moisture balance.</strong><br><br><ul><li>Bursting with zesty lemon freshness.</li><li>Purifies and brightens skin.</li><li>Natural astringent properties reduce excess oil and fight acne.</li><li>Leaves skin clear and glowing.</li></ul>",
+            "images": [
+                "../images/coffee.jpg",
+                "../images/coffee2.jpg",
+                "../images/coffee3.jpg",
+                "../images/coffee4.jpg"
+            ]
+        },
+        {
+            "id": "coffee-lipbalm",
+            "name": "Coffee Lip Balm",
+            "description": "Lip Balm (preservative & chemical free)",
+            "price": "90",
+            "actualPrice": "120",
+            "backgroundimage": "../images/coffee-lip-balm.jpg",
+            "discount": "25%",
+            "extrades": " with oil beads ₹110",
+            "extraprice": "130",
+            "longdescription": "It is made up of natural wax, organic cold pressed oils, butters, and Vitamins to deeply nourish and protect dry lips. Available in different colors (Neutral, nude, pink, magic, brown etc.).  This lip balm glides effortlessly, reducing pigmentation and providing up to 24 hours of moisturization. The smooth texture ensures soft, nourished lips with a delicious coffee aroma.",
+            "images": [
+                "../images/coffee-lip-balm.jpg",
+                "../images/lip-balm-neutral.jpg",
+                "../images/lip-balm-nude.jpg",
+                "../images/lip-balm-pink.jpg"
+            ]
+        },
+        {
+            "id": "strawberry-lipbalm",
+            "name": "Strawberry Lip Balm",
+            "description": "Keep your lips soft and supple with the sweet flavor of strawberries.",
+            "price": "90",
+            "actualPrice": "120",
+            "backgroundimage": "../images/strawberry-lip-balm.jpg",
+            "discount": "25%",
+            "extrades": " with oil beads ₹110",
+            "extraprice": "130",
+            "longdescription": "It is made up of natural wax, organic cold pressed oils, butters, and Vitamins to deeply nourish and protect dry lips. Available in different colors(Neutral, nude, pink, magic, brown etc.). Enjoy the sweet, fruity flavor of strawberries with this lip balm, which moisturizes and softens your lips, leaving them smooth and supple with a subtle tint.",
+            "images": [
+                "../images/strawberry-lip-balm.jpg",
+                "../images/lip-balm-neutral.jpg",
+                "../images/lip-balm-nude.jpg",
+                "../images/lip-balm-pink.jpg"
+            ]
+        },
+        {
+            "id": "vanilla-lipbalm",
+            "name": "Vanilla Lip Balm",
+            "description": "Lip Balm (preservative & chemical free)",
+            "price": "90",
+            "actualPrice": "120",
+            "backgroundimage": "../images/vanilla-lipbalm.jpg",
+            "discount": "25%",
+            "extrades": " with oil beads ₹110",
+            "extraprice": "130",
+            "longdescription": "It is made up of natural wax, organic cold pressed oils, butters, and Vitamins to deeply nourish and protect dry lips. Available in different colors(Neutral, nude, pink, magic, brown etc.). Indulge in the creamy goodness of vanilla with this deeply nourishing and protective lip balm. It keeps lips soft and healthy with soothing properties.",
+            "images": [
+                "../images/vanilla-lipbalm.jpg",
+                "../images/vanilla-lipbalm1.jpg",
+                "../images/vanilla-lipbalm2.jpg",
+                "../images/vanilla-lipbalm3.jpg"
+            ]
+        },
+        {
+            "id": "plain-lipbalm",
+            "name": "Plain (Unscented, Unflavored) Lip Balm",
+            "description": "Lip Balm (preservative & chemical free)",
+            "price": "90",
+            "actualPrice": "120",
+            "backgroundimage": "../images/plain-lipbalm.jpg",
+            "discount": "25%",
+            "extrades": " with oil beads ₹110",
+            "extraprice": "130",
+            "longdescription": "It is made up of natural wax, organic cold pressed oils, butters, and Vitamins to deeply nourish and protect drylips. Available in different colors(Neutral, nude, pink, magic, brown etc.). Ideal for those who prefer a simple, natural option, this plain lip balm provides essential hydration and protection without added fragrance or flavor. It's perfect for sensitive lips, offering luxuriant moisture. Preservative & chemical free.",
+            "images": [
+                "../images/plain-lipbalm.jpg",
+                "../images/plain-lipbalm1.jpg",
+                "../images/plain-lipbalm2.jpg",
+                "../images/plain-lipbalm3.jpg"
+            ]
+        },
+        {
+            "id": "rose-cream",
+            "name": "Rose Cream",
+            "description": "Cream (preservative & chemical free)",
+            "price": "180",
+            "actualPrice": "240",
+            "backgroundimage": "../images/rose-cream.jpg",
+            "discount": "25%",
+            "extrades": " with oil beads ₹220",
+            "extraprice": "280",
+            "longdescription": "Day and night Cream combat dull skin with a rosy glow! Treat yourself to the nostalgic charm of skincare with Rose. This delightful blend of natural botanicals(also essential oils, Vitamin E) invigorates your skin, helping to restore its brightness for a rosy pink glow. The prominence of Rose petals leaves the skin radiant. Preservative & chemical free. Benefits: Refreshes dull and uneven skin, Reveals a brighter, glowing complexion, Rose adds a natural hydrating glow, Indulge in the delicate fragrance of roses with this cream that hydrates and revitalizes your skin. Its soothing properties make it perfect for all skin types, especially sensitive skin.",
+            "images": [
+                "../images/rose-cream.jpg",
+                "../images/rose-petals.jpg",
+                "../images/skincare.jpg"
+            ]
+        },
+        {
+            "id": "saffron-cream",
+            "name": "Saffron Cream",
+            "description": "Cream (preservative & chemical free)",
+            "price": "180",
+            "actualPrice": "240",
+            "backgroundimage": "../images/saffron-cream.jpg",
+            "discount": "25%",
+            "extrades": " with oil beads ₹220",
+            "extraprice": "280",
+            "longdescription": "Formulated with pure saffron, essential oils and vitamin E, this cream makes skin soft, supple, and radiant. It slows down the pigmentation process, helping the skin glow naturally. This cream also prevents pigmentation for a naturally bright appearance. Preservative & chemical free. Features: Advanced skin brightening cream for women, Enriched with vitamin E and saffron, nourishing the skin, Regular use slows down pigmentation, Enriched with saffron, this cream enhances your complexion and provides a radiant glow. Saffron's skin-brightening properties help reduce pigmentation and improve skin texture.",
+            "images": [
+                "../images/saffron-cream.jpg",
+                "../images/saffron.jpg",
+                "../images/skincare.jpg"
+            ]
+        },
+        {
+            "id": "aloevera-cream",
+            "name": "Aloe Vera Cream",
+            "description": "Cream (preservative & chemical free)",
+            "price": "180",
+            "actualPrice": "240",
+            "backgroundimage": "../images/aloe-vera-cream.jpg",
+            "discount": "25%",
+            "extrades": " with oil beads ₹220",
+            "extraprice": "280",
+            "longdescription": "Harness the natural healing power of aloe vera in this cream that offers deep hydration and soothing relief for dry and irritated skin. It promotes skin regeneration and helps maintain a healthy, youthful appearance. Dive into the refreshing hydration of Pure Aloe Vera along with essential oils and Vitamin E, a popular anti-inflammatory and antimicrobial herb that hydrates and soothes skin. Preservative & chemical free. Benefits: Seamless texture minimizes pores and evens skin tone, Perfect for DIY masks and more, Intense hydration keeps skin smooth and supple, Versatile for skin and hair, offering beauty benefits in one bottle.",
+            "images": [
+                "../images/aloe-vera-cream.jpg",
+                "../images/aloe-vera.jpg",
+                "../images/skincare.jpg"
+            ]
+        },
+        {
+            "id": "kumkumadi-cream",
+            "name": "Kumkumadi Cream",
+            "description": "Cream (preservative & chemical free)",
+            "price": "180",
+            "actualPrice": "240",
+            "backgroundimage": "../images/kumkumadi-cream.jpg",
+            "discount": "25%",
+            "extrades": " with oil beads ₹220",
+            "extraprice": "280",
+            "longdescription": "Formulated with the traditional Ayurvedic blend of kumkumadi oil, this cream nourishes and rejuvenates your skin, helping to reduce dark spots, blemishes, and signs of aging, leaving your skin radiant and glowing. This daily skin-nourishing moisturizer is enriched with revitalizing ingredients to enhance your radiance and boost your glow. Fast-absorbing and weightless, Kumkumadi Cream has an uplifting natural saffron fragrance. Preservative & chemical free. Benefits: Increases glowand energizes dull skin, Minimizes signs of tiredness, Moisturizes and nourishes the skin.",
+            "images": [
+                "../images/kumkumadi-cream.jpg",
+                "../images/kumkumadi-oil.jpg",
+                "../images/skincare.jpg"
+            ]
+        },
+        {
+            "id": "chandan-soap",
+            "name": "Chandan Soap",
+            "description": "Soap (preservative & chemical free)",
+            "price": "90",
+            "actualPrice": "140",
+            "backgroundimage" : "../images/chandan-soap.jpg",
+            "discount": "35%",
+            "extrades" :" with loofah ₹110",
+            "extraprice" : "170",
+            "longdescription": 
+              "Experience the timeless elegance of sandalwood with this soap that cleanses and refreshes your skin. Known for its cooling and soothing properties, it helps maintain healthy, glowing skin. This soap cleanses, tones, and nourishes your skin with sandal wood powder, keeping it clean, glowing, and protected from bacteria. Preservative & chemical free. Features: Combines luxury and wellness, Handcrafted with natural ingredients, Sandalwood offers skin-soothing properties.",
+            "images": [
+              "../images/chandan-soap.jpg",
+              "../images/sandalwood.jpg",
+              "../images/skincare.jpg"
+            ]
+          },
+          {
+            "id": "charcoal-soap",
+            "name": "Activated Charcoal Soap",
+            "description": "Soap (preservative & chemical free)",
+            "price": "90",
+            "actualPrice": "140",
+            "backgroundimage" : "../images/charcoal-soap.png",
+            "discount": "35%",
+            "extrades" :" with loofah ₹110",
+            "extraprice" : "170",
+            "longdescription": 
+              "Deep cleanse your skin with the detoxifying activated power of charcoal. This soap effectively removes impurities and excess oil, leaving your skin clear and revitalized. Charcoal soap absorbs excess oil, dirt, and bacteria, preventing common breakouts. Its anti-inflammatory properties reduce redness, leaving you with cleaner, clearer skin. Preservative & chemical free. Benefits: Non-drying soft cleansing, Light exfoliation removes dead cells and toxins, Fights free radicals, protecting the skin from aging, Clears skin off spots, blemishes, pigmentation, and sun tan.",
+            "images": [
+              "../images/charcoal-soap.png",
+              "../images/charcoal-soap1.jpg",
+              "../images/charcoal-soap2.jpg",
+              "../images/charcoal-soap3.jpeg"
+            ]
+          },
+          {
+            "id": "chandan-multani-soap",
+            "name": "Chandan Multani Mitti Soap",
+            "description": "Soap (preservative & chemical free)",
+            "price": "90",
+            "actualPrice": "140",
+            "backgroundimage" : "../images/chandan-multani-mitti-soap.jpg",
+            "discount": "35%",
+            "extrades" :" with loofah ₹110",
+            "extraprice" : "170",
+            "longdescription": 
+              "Combining the benefits of sandalwood and Multani mitti, this soap purifies and tones your skin. It controls oiliness and prevents acne, giving you a fresh and radiant complexion. This soap, made with glycerin and coconut oil, cleanses without drying out your skin. Handcrafted with pure Multani mitti and chandan, it exfoliates and cleanses deeply. Preservative & chemical free. Benefits: Removes dead cells, making the skin look fresh, Controls oiliness, treats skin irritations, and prevents breakouts, Chemical-free and handmade, Sandalwood offers skin-soothing properties, Cooling property, it helps in skin tightening and brightening, Reduces dark spots, cleans clogged pores.",
+            "images": [
+              "../images/chandan-multani-mitti-soap.jpg",
+              "../images/multani-mitti.jpg",
+              "../images/skincare.jpg"
+            ]
+          },
+          {
+            "id": "neem-soap",
+            "name": "Neem Soap",
+            "description": "Soap (preservative & chemical free)",
+            "price": "90",
+            "actualPrice": "140",
+            "backgroundimage" : "../images/neem-soap.png",
+            "discount": "35%",
+            "extrades" :" with loofah ₹110",
+            "extraprice" : "170",
+            "longdescription": 
+              "Harnessing the antibacterial and antifungal properties of neem, this soap deeply cleanses and combats skin infections. Ideal for acne-prone skin, it promotes clear and healthy skin. Neem soap contains natural neem oil and leaf extracts, enriched with beneficial compounds like fatty acids, antioxidants, and vitamins. Preservative & chemical free. Features: Useful for your skin in summers due to sweating, Body-cleansing and purifying, Enriched with medicinal compounds, Gently cleanses and purifies the skin.",
+            "images": [
+              "../images/neem-soap.png",
+        "../images/neem-soap1.jpg",
+        "../images/neem-soap2.jpg",
+            "../images/neem-soap3.jpg"
+            ]
+          },
+          {
+            "id": "tulsi-soap",
+            "name": "Tulsi Soap",
+            "description": "Soap (preservative & chemical free)",
+            "price": "90",
+            "actualPrice": "140",
+            "backgroundimage" : "../images/tulsi-soap.jpg",
+            "discount": "35%",
+            "extrades" :" with loofah ₹110",
+            "extraprice" : "170",
+            "longdescription": 
+              "Enriched with the holy basil (Tulsi), this soap offers natural antiseptic and purifying benefits. It detoxifies and rejuvenates your skin, leaving it soft and refreshed. Tulsi, known as a longevity herb in Ayurveda and has antibacterial properties. Preservative & chemical free. Benefits: Clarifies and soothes all skin types, Antibacterial and purifying properties, Detoxifies and rejuvenates the skin.",
+            "images": [
+              "../images/tulsi-soap.jpg",
+              "../images/tulsi.jpg",
+              "../images/skincare.jpg"
+            ]
+          },
+          {
+            "id": "rose-soap",
+            "name": "Rose Soap",
+            "description": "Soap (preservative & chemical free)",
+            "price": "90",
+            "actualPrice": "140",
+            "backgroundimage" : "../images/rose-soap.jpg",
+            "discount": "35%",
+            "extrades" :" with loofah ₹110",
+            "extraprice" : "170",
+            "longdescription": 
+              "Indulge in the romantic fragrance of roses with this soap that gently cleanses and hydrates your skin. It maintains the skin's natural moisture balance, leaving you feeling fresh. Rose soap strengthens skin cells, regenerates tissues, and contains anti-inflammatory benefits, reducing redness. Preservative & chemical free. Features: Suitable for all skin types, especially dry skin, Moisturizing properties soothe the skin.",
+            "images": [
+              "../images/rose-soap.jpg",
+              "../images/rose-soap1.png",
+              "../images/rose-soap2.jpg",
+              "../images/skincare.jpg"
+            ]
+          },
+          {
+            "id": "lavender-soap",
+            "name": "Lavender Soap",
+            "description": "Soap (preservative & chemical free)",
+            "price": "90",
+            "actualPrice": "140",
+            "backgroundimage" : "../images/lavender-soap.png",
+            "discount": "35%",
+            "extrades" :" with loofah ₹110",
+            "extraprice" : "170",
+            "longdescription": 
+              "Relax and unwind with the calming scent of lavender. This soap soothes and nourishes your skin, making it perfect for a relaxing bath experience. Preservative & chemical free. Benefits: Protects skin from free radicals, Restores radiant and healthy skin, Effective for eczema and skin diseases, Maintains skin's pH balance, Brightens and hydrates the skin, Safe for all skin types.",
+            "images": [
+              "../images/lavender-soap.jpg",
+              "../images/lavender.jpg",
+              "../images/skincare.jpg"
+            ]
+          },
+          {
+            "id": "aloevera-soap",
+            "name": "Aloe Vera Soap",
+            "description": "Soap (preservative & chemical free)",
+            "price": "90",
+            "actualPrice": "140",
+            "backgroundimage" : "../images/aloe-vera-soap.jpg",
+            "discount": "35%",
+            "extrades" :" with loofah ₹110",
+            "extraprice" : "170",
+            "longdescription": 
+              "Infused with aloe vera, this soap provides gentle hydration and soothing relief for dry and sensitive skin. It heals and protects the skin, keeping it soft and healthy. Aloe vera soap removes excess oil, dirt, and dead cells, purifying the skin without leaving it dry. Preservative & chemical free. Features: Moisturizes and hydrates the skin, Prevents wrinkles and has anti-inflammatory properties.",
+            "images": [
+              "../images/aloe-vera-soap.jpg",
+              "../images/aloe-vera.jpg",
+              "../images/skincare.jpg"
+            ]
+          },
+          {
+            "id": "lemon-soap",
+            "name": "Lemon Soap",
+            "description": "Soap (preservative & chemical free)",
+            "price": "90",
+            "actualPrice": "140",
+            "backgroundimage" : "../images/lemon-soap.jpg",
+            "discount": "35%",
+            "extrades" :" with loofah ₹110",
+            "extraprice" : "170",
+            "longdescription": 
+              "Refresh and invigorate your senses with the zesty aroma oflemons. This soap cleanses and brightens your skin, leaving it feeling fresh and rejuvenated. Preservative & chemical free. Benefits: Maintains skin's pH balance, Vitamin C promotes healthy skin, Deep cleansing and brightening, Hydrates and soothes the skin, Protects from free radicals.",
+            "images": [
+              "../images/lemon-soap.jpg",
+              "../images/lemon.jpg",
+              "../images/skincare.jpg"
+            ]
+          },
+          {
+            "id": "haldi-soap",
+            "name": "Haldi Soap",
+            "description": "Soap (preservative & chemical free)",
+            "price": "90",
+            "actualPrice": "140",
+            "backgroundimage" : "../images/haldi-soap.jpg",
+            "discount": "35%",
+            "extrades" :" with loofah ₹110",
+            "extraprice" : "170",
+            "longdescription": 
+              "Enriched with turmeric (haldi), this soap offers natural antibacterial and anti-inflammatory benefits. It improves skin tone and combats acne, promoting a healthy complexion. Preservative & chemical free. Features: Protects skin's natural oils, Light exfoliation removes dead cells and toxins, Fights free radicals, Clears spots, blemishes, pigmentation, and sun tan.",
+            "images": [
+              "../images/haldi-soap.jpg",
+              "../images/turmeric.jpg",
+              "../images/skincare.jpg"
+            ]
+          },
+          {
+            "id": "haldi-honey-soap",
+            "name": "Haldi Honey Soap",
+            "description": "Soap (preservative & chemical free)",
+            "price": "90",
+            "actualPrice": "140",
+            "backgroundimage" : "../images/haldi-honey-soap.jpg",
+            "discount": "35%",
+            "extrades" :" with loofah ₹110",
+            "extraprice" : "170",
+            "longdescription": 
+              "Combining the goodness of turmeric and honey, this soap nourishes and revitalizes your skin. It provides deep cleansing and hydration, leaving your skin soft and radiant.",
+            "images": [
+              "../images/haldi-honey-soap.jpg",
+              "../images/haldi-honey-soap1.jpg",
+              "../images/turmeric.jpg",
+              "../images/honey.jpg"
+            ]
+          },
+          {
+            "id": "rose-loofah-soap",
+            "name": "Rose Loofa Soap",
+            "description": "Soap (preservative & chemical free)",
+            "price": "90",
+            "actualPrice": "140",
+            "backgroundimage" : "../images/rose-loofa-soap.jpg",
+            "discount": "35%",
+            "extrades" :" with loofah ₹110",
+            "extraprice" : "170",
+            "longdescription": 
+              "Enjoy a luxurious bath with this rose loofa soap that exfoliates and cleanses your skin. It removes dead skin cells and promotes a smooth, glowing complexion.",
+            "images": [
+              "../images/rose-loofa-soap.jpg",
+              "../images/rose.jpg",
+              "../images/loofah.jpg"
+            ]
+          },
+          {
+            "id": "multani-soap",
+            "name": "Multani Mitti Soap",
+            "description": "Soap (preservative & chemical free)",
+            "price": "90",
+            "actualPrice": "140",
+            "backgroundimage" : "../images/multanimitti-soap.png",
+            "discount": "35%",
+            "extrades" :" with loofah ₹110",
+            "extraprice" : "170",
+            "longdescription": 
+              "Infused with Multani mitti, this soap deeply cleanses and detoxifies your skin. It controls oiliness and prevents acne, giving you a clear and fresh complexion. Multani mitti, also known as Fuller’s earth, balances skin oils and treats minor infections. Preservative & chemical free. Benefits: Heals dead cells, reduces acne and scars, removes sun tan, 100% natural ingredients with a natural aroma, it helps in skin tightening and brightening, Reduces dark spots, cleans clogged pores.",
+            "images": [
+              "../images/multanimitti-soap.png",
+              "../images/multanimitti-soap1.jpg",
+              "../images/multani-mitti.jpg",
+              "../images/skincare.jpg"
+            ]
+          }, {
+            "id": "neem-tulsi-soap",
+            "name": "Neem + Tulsi Soap",
+            "description": "Soap (preservative & chemical free)",
+            "price": "90",
+            "actualPrice": "140",
+            "backgroundimage" : "../images/neem-tulsi-soap.jpg",
+            "discount": "35%",
+            "extrades" :" with loofah ₹110",
+            "extraprice" : "170",
+            "longdescription": 
+              "Combining the powerful benefits of neem and tulsi, this soap provides deep cleansing and antibacterial protection. It purifies and rejuvenates your skin, leaving it healthy and clear. Khadi Natural Neem Tulsi Soap calms skin irritation and infection while moisturizing the skin. Preservative & chemical free. Features: Gentle cleansing and moisturizing, Useful for your skin in summers due to sweating, Body-cleansing and purifying, Gently cleanses and purifies the skin, Clarifies and soothes all skin types, Antibacterial and purifying properties, Detoxifies and rejuvenates the skin.",
+            "images": [
+              "../images/neem-tulsi-soap.jpg",
+              "../images/neem.jpg",
+              "../images/tulsi.jpg"
+            ]
+          },
+          {
+            "id": "shahi-ubtan-soap",
+            "name": "Shahi Ubtan Soap",
+            "description": "Soap (preservative & chemical free)",
+            "price": "90",
+            "actualPrice": "140",
+            "backgroundimage" : "../images/shahi-ubtan-soap.jpg",
+            "discount": "35%",
+            "extrades" :" with loofah ₹110",
+            "extraprice" : "170",
+            "longdescription": 
+              "Inspired by traditional beauty rituals, this shahi ubtan soap gently exfoliates and brightens your skin. It promotes a healthy and radiant complexion. This luxurious, handcrafted bathing bar with the goodness of ubtan helps retain moisture and keeps skin soft. Preservative & chemical free. Benefits: Removes dead skin cells and toxins, Keeps your Skin brightening & glowing, Fights free radicals, Clears spots, blemishes, pigmentation, and sun tan.",
+            "images": [
+              "../images/shahi-ubtan-soap.jpg",
+              "../images/ubtan.jpg",
+              "../images/skincare.jpg"
+            ]
+          },
+          {
+            "id": "red-wine-soap",
+            "name": "Red Wine Soap",
+            "description": "Soap (preservative & chemical free)",
+            "price": "90",
+            "actualPrice": "140",
+            "backgroundimage" : "../images/red-wine-soap.jpg",
+            "discount": "35%",
+            "extrades" :" with loofah ₹110",
+            "extraprice" : "170",
+            "longdescription": 
+              "This soap, enriched with the antioxidants found in Red Wine, provides nourishment and rejuvenation for your skin. It effectively fights signs of aging and promotes a youthful, radiant complexion. Additionally, red wine soap thoroughly cleanses the skin by removing dirt, oil, and impurities. Some formulations may include natural exfoliants such as grape seeds or grape skin, which aid in eliminating dead skin cells and achieving a more even skin tone.",
+            "images": [
+              "../images/red-wine-soap.jpg",
+              "../images/red-wine.jpg",
+              "../images/skincare.jpg"
+            ]
+          },
+          {
+            "id": "aqua-soap",
+            "name": "Aqua Soap",
+            "description": "Soap (preservative & chemical free)",
+            "price": "90",
+            "actualPrice": "140",
+            "backgroundimage" : "../images/aqua-soap.jpg",
+            "discount": "35%",
+            "extrades" :" with loofah ₹110",
+            "extraprice" : "170",
+            "longdescription": 
+              "Invigorate your senses with this aqua soap that both cleanses and hydrates your skin. With its refreshing fragrance and moisturizing properties, it is ideal for everyday use. Combat the summer heat with Aqua Cool soap, enriched with powerful natural blends. This soap is essential for a revitalizing shower, featuring a nourishing and non-drying formula that refreshes your skin with a burst of hydration, leaving it vibrant, smooth, and supple after each wash.",
+            "images": [
+              "../images/aqua-soap.jpg",
+              "../images/aqua.jpg",
+              "../images/skincare.jpg"
+            ]
+          },
+          {
+            "id": "coffee-soap",
+            "name": "Coffee Soap",
+            "description": "Soap (preservative & chemical free)",
+            "price": "90",
+            "actualPrice": "140",
+            "backgroundimage" : "../images/coffee-soap.jpg",
+            "discount": "35%",
+            "extrades" :" with loofah ₹110",
+            "extraprice" : "170",
+            "longdescription": 
+              "Made with coffee grounds and infused with coffee aroma, this soap exfoliates and removes dead skin cells. It contains antioxidants and caffeine for skin tightening. Ideal for a morning wake-up or refreshing scrub, it rejuvenates the skin.",
+            "images": [
+              "../images/coffee-soap.jpg",
+              "../images/coffee.jpg",
+              "../images/skincare.jpg"
+            ]
+          },
+          {
+            "id": "menthol-soap",
+            "name": "Menthol Soap",
+            "description": "Soap (preservative & chemical free)",
+            "price": "90",
+            "actualPrice": "140",
+            "backgroundimage" : "../images/menthol-soap.jpg",
+            "discount": "35%",
+            "extrades" :" with loofah ₹110",
+            "extraprice" : "170",
+            "longdescription": 
+              "Formulated with natural menthol crystals, this soap provides a cooling and invigorating sensation. It soothes and revitalizes skin, has antiseptic properties for cleansing, and relieves itching and minor skin irritations. Perfect for hot days or post-exercise showers.",
+            "images": [
+              "../images/menthol-soap.jpg",
+              "../images/menthol.jpg",
+              "../images/skincare.jpg"
+            ]
+          },
+          {
+            "id": "goat-milk-soap",
+            "name": "Goat Milk Soap",
+            "description": "Soap (preservative & chemical free)",
+            "price": "90",
+            "actualPrice": "140",
+            "backgroundimage" : "../images/goat-milk-soap.jpg",
+            "discount": "35%",
+            "extrades" :" with loofah ₹110",
+            "extraprice" : "170",
+            "longdescription": 
+              "Enriched with pure goat milk, this soap is high in vitamins and minerals for deep hydration. It soothes sensitive skin, contains lactic acid for gentle exfoliation and brightening, and provides a luxurious and pampering experience. Ideal for dry, sensitive, or eczema-prone skin. Removes fine lines and smooths the skin.",
+            "images": [
+              "../images/goat-milk-soap.jpg",
+              "../images/goat-milk.jpg",
+              "../images/skincare.jpg"
+            ]
+          },
+          {
+            "id": "green-tea-soap",
+            "name": "Green Tea Soap",
+            "description": "Soap (preservative & chemical free)",
+            "price": "90",
+            "actualPrice": "140",
+            "backgroundimage" : "../images/green-tea-soap.jpg",
+            "discount": "35%",
+            "extrades" :" with loofah ₹110",
+            "extraprice" : "170",
+            "longdescription": 
+              "Infused with green tea extract, this soap is rich in antioxidants and anti-inflammatory properties. It protects skin from environmental damage, reduces redness, and promotes clear complexion. Suitable for daily use, it handles the aging process better.",
+            "images": [
+              "../images/green-tea-soap.jpg",
+              "../images/green-tea.jpg",
+              "../images/skincare.jpg"
+            ]
+          },
+          {
+            "id": "saffron-soap",
+            "name": "Saffron Soap",
+            "description": "Soap (preservative & chemical free)",
+            "price": "90",
+            "actualPrice": "140",
+            "backgroundimage" : "../images/saffron-soap.jpg",
+            "discount": "35%",
+            "extrades" :" with loofah ₹110",
+            "extraprice" : "170",
+            "longdescription": 
+              "Enriched with saffron strands for skin-brightening, this soap lightens dark spots and evens out skin tone. It adds a radiant glow to the skin, contains antioxidant and antibacterial properties, and enhances complexion for a spa-like experience. Perfect for those seeking luxurious skincare.",
+            "images": [
+              "../images/saffron-soap.jpg",
+              "../images/saffron.jpg",
+              "../images/skincare.jpg"
+            ]
+          },
+          {
+            "id": "virgin-oil",
+            "name": "Virgin Coconut Oil",
+            "description": " our coconut oil is from organically grown coconuts which are allowed to dropdown naturally from trees. This coconut is dried without the usage of sulphur The oil is extracted in Mara Chekku (Traditional cold press method) So this oil contains entire nutritional content of the coconuts which is good for skin and is edible also.",
+            "price": "90",
+            "actualPrice": "140",
+            "backgroundimage" : "../images/virgin-oil.jpg",
+            "discount": "35%",
+            "extrades" :" with loofah ₹110",
+            "extraprice" : "170",
+            "longdescription": "Virgin coconut oil Extracted by cold pressed method from dried organic coconut copra   Ideal for cooking, skincare (face, lips and whole body) and haircare   Good for massage   Provides deep moisturization and nourishment   Strengthens skeletal and muscular systems  Promotes good sleep, rapid hair growth, and results in thick, strong hair  Free from chemicals and heavy metals ",
+            "images": [
+                "../images/virgin-oil.jpg",
+              "../images/coconutoil.png",
+              "../images/virgin-oil2.jpg",
+              "../images/virgin-oil3.jpg"
+            ]
+          },
+          {
+            "id": "extra-virgin-oil",
+            "name": "Extra Virgin Coconut Oil",
+            "description": " our coconut oil is from organically grown coconuts which are allowed to dropdown naturally from trees. This coconut is dried without the usage of sulphur The oil is extracted in Mara Chekku (Traditional cold press method) So this oil contains entire nutritional content of the coconuts which is good for skin and is edible also.",
+            "price": "90",
+            "actualPrice": "140",
+            "backgroundimage" : "../images/extra-virgin-oil.jpg",
+            "discount": "35%",
+            "extrades" :" with loofah ₹110",
+            "extraprice" : "170",
+            "longdescription": "  Represents the highest quality of coconut oil Extra Virgin coconut oil taken by cold pressed method from coconut milk Usable as a moisturizer, face cream, body and hair massage oil, lip balm, lip scrub, baby massage oil, salad dressing, dental aid, and more Provides deep moisturization and nourishment Strengthens skeletal and muscular systems Promotes good sleep, rapid hair growth, and results in thick, strong hair Free from chemicals and heavy metals Produced from the first cold pressing of fresh coconut meat No chemical processing Ideal for culinary uses and premium skin and hair care Antioxidant, antimicrobial, and anti-inflammatory properties Pure and natural, suitable for consumption, drinking, and topical application Retains all nutrients, unrefined, unbleached, and free of mineral oils",
+            "images": [
+                "../images/extra-virgin-oil.jpg",
+              "../images/extra-virgin-oil1.jpg",
+              "../images/extra-virgin-oil2.jpg",
+              "../images/extra-virgin-oil3.jpg"
+            ]
+          },
+          {
+            "id": "toy-soap",
+            "name": "Toy Soap",
+            "description": " ",
+              "price": "90",
+            "actualPrice": "140",
+            "backgroundimage" : "../images/toy-soap.jpg",
+            "discount": "35%",
+            "extrades" :" with loofah ₹110",
+            "extraprice" : "170",
+            "longdescription": "",
+            "images": [
+                "../images/toy-soap.jpg",
+              "../images/toy-soap1.jpg",
+              "../images/saffron.jpg",
+              "../images/skincare.jpg"
+            ]
+          },
+          {
+            "id": "customised-soap",
+            "name": "Customised Name Soap ",
+            "description": ".",
+            "price": "90",
+            "actualPrice": "140",
+            "backgroundimage" : "../images/customised-soap.jpg",
+            "discount": "35%",
+            "extrades" :" with loofah ₹110",
+            "extraprice" : "170",
+            "longdescription": " ",
+            "images": [
+                "../images/customised-soap.jpg",
+              "../images/customised-soap1.jpg",
+              "../images/customised-soap2.jpg",
+              "../images/customised-soap3.jpg"
+              
+            ]
+          }
+    ]
+}

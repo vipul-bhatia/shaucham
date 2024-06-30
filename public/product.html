@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../css/product.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <title>Product Details</title>
+</head>
+
+<body>
+    <nav class="navbar"></nav>
+
+    <section class="product-details">
+        <div class="image-slider" id="imageSlider">
+            <div class="product-images" id="product-images"></div>
+        </div>
+        <div class="details">
+            <h2 class="product-brand" id="product-name"></h2><br>
+            <p class="product-short-des" id="product-description"></p>
+
+            <span class="product-price" id="product-price"></span>
+            <span class="product-actual-price" id="product-actual-price"></span>
+            <span class="product-discount" id="product-discount">30%</span>
+            <br><br>
+            <span class="extra-des" id="extra-des"></span>
+            <span class="extra-price" id="extra-price"></span><br><br>
+            <div class="btn-group">
+                <button class="btn cart-btn" id="add-to-cart-btn">Add to Cart</button>
+                <button class="btn" id="add-to-wishlist-btn">Add to Wishlist</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="detail-des">
+        <h2 class="heading">Description</h2>
+        <p class="des" id="product-long-description"></p>
+    </section>
+     <div class="icons-cont">
+        <div class="values-container">
+          <h2>Our Products are</h2>
+          <ul class="values-list">
+            <li>
+              <img src="../images/cruelty-free.png" alt="Cruelty Free">
+              <span>Cruelty Free</span>
+            </li>
+            <li>
+              <img src="../images/handmade.png" alt="Handmade Products">
+              <span>Handmade Products</span>
+            </li>
+            <li>
+              <img src="../images/ecology.png" alt="Organic Ingredients">
+              <span>Organic Ingredients</span>
+            </li>
+            <li>
+              <img src="../images/gmo-free.png" alt="GMO Free">
+              <span>GMO Free</span>
+            </li>
+            <li>
+              <img src="../images/fresh.png" alt="Freshly Made">
+              <span>Freshly Made</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <hr style="border: 1px solid #bc9487;
+;">
+<footer class="footer"></footer>
+<script src="../js/home.js"></script>
+<script src="../js/footer.js"></script>
+<script src="../js/nav.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const urlParams = new URLSearchParams(window.location.search);
+            const productId = urlParams.get('id');
+
+            if (productId) {
+                fetch('../data/products.json')
+                    .then(response => response.json())
+                    .then(data => {
+                        const product = data.products.find(p => p.id === productId);
+                        if (product) {
+                            document.getElementById('product-name').textContent = product.name;
+                            document.getElementById('product-description').textContent = product.description;
+                            document.getElementById('extra-des').textContent = product.extrades;
+                            document.getElementById('extra-price').textContent = `₹${product.extraprice}`;
+                            document.getElementById('product-price').textContent = `₹${product.price}`;
+                            document.getElementById('product-actual-price').textContent = `₹${product.actualPrice}`;
+                            document.getElementById('product-discount').textContent = product.discount;
+                            document.getElementById('product-long-description').textContent = product.longdescription;
+
+
+
+                            const imagesContainer = document.getElementById('product-images');
+                            product.images.forEach(image => {
+                                const imgElement = document.createElement('img');
+                                imgElement.src = image;
+                                imagesContainer.appendChild(imgElement);
+                            });
+
+                            const productImages = document.querySelectorAll(".product-images img");
+                            let activeImageSlide = 0;
+
+                            const imageSlider = document.getElementById('imageSlider');
+                            imageSlider.style.backgroundImage = `url('${product.backgroundimage}')`;
+                            productImages.forEach((item, i) => {
+                                item.addEventListener('click', () => {
+                                    productImages[activeImageSlide].classList.remove('active');
+                                    item.classList.add('active');
+                                    console.log(item.src)
+                                    imageSlider.style.backgroundImage = `url('${item.src}')`;
+                                    activeImageSlide = i;
+                                });
+                            });
+                            // Add to Cart functionality
+                            document.getElementById('add-to-cart-btn').addEventListener('click', () => {
+                                let cart = JSON.parse(localStorage.getItem('cart')) || [];
+                                const productInCart = cart.find(p => p.id === product.id);
+
+                                if (productInCart) {
+                                    productInCart.quantity = parseInt(productInCart.quantity) + 1;
+                                } else {
+                                    product.quantity = 1;
+                                    cart.push(product);
+                                }
+
+                                localStorage.setItem('cart', JSON.stringify(cart));
+                                const addButton = document.getElementById('add-to-cart-btn');
+                                addButton.textContent = 'Added';
+                                addButton.disabled = true;
+                            });
+
+                            // Add to Wishlist functionality
+                            document.getElementById('add-to-wishlist-btn').addEventListener('click', () => {
+                                let wishlist = JSON.parse(localStorage.getItem('wishlist')) || [];
+                                const productInWishlist = wishlist.find(p => p.id === product.id);
+
+                                if (productInWishlist) {
+                                    const wishlistButton = document.getElementById('add-to-wishlist-btn');
+    wishlistButton.textContent = 'Already Wishlisted';
+    wishlistButton.disabled = true;
+                                } else {
+                                    product.quantity = 1;
+                                    wishlist.push(product);
+                                }
+
+                                localStorage.setItem('wishlist', JSON.stringify(wishlist));
+                               
+                                const wishlistButton = document.getElementById('add-to-wishlist-btn');
+  if (!productInWishlist) {
+    wishlistButton.textContent = 'Wishlisted';
+    wishlistButton.disabled = true;
+  }
+                            });
+
+                        }
+                    });
+            }
+        });
+        
+
+
+
+    </script>
+</body>
+
+</html>
+
+
