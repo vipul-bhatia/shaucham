@@ -26,7 +26,7 @@ const createNav = () => {
       <li class="link-item"><a href="../cream&lipbalm.html" class="link">cream</a></li>
       <li class="link-item"><a href="../cream&lipbalm.html" class="link">lipbalm</a></li>
        <li class="link-item"><a href="../facewash&oil.html" class="link">Oil</a></li>
-      <li class="link-item"><a href="../review.html" class="link">REVIEWS</a></li>
+      <li class="link-item"><a href="../Review.html" class="link">REVIEWS</a></li>
       
   </ul>
     `;
