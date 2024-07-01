@@ -36,7 +36,7 @@ submitBtn.addEventListener('click', () => {
         } else {
             //submit form
             loader.style.display = 'block';
-            sendData('./signup.html', {
+            sendData('/signup', {
                 name: name.value,
                 email: email.value,
                 password: password.value,
