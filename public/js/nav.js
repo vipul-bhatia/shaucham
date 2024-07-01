@@ -60,7 +60,7 @@ window.onload = () => {
     popuptext.innerHTML = 'log in to place order';
     actionBtn.innerHTML = 'log in';
     actionBtn.addEventListener('click', () => {
-      location.href = '/login';
+      location.href = './login.html';
     })
   }
 }
