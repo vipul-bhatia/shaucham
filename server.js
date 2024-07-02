@@ -36,16 +36,18 @@ let staticPath = path.join(__dirname, "public");
 
 const app = express();
 
-app.use(express.static(staticPath));
+
+
 app.use(express.json());
+app.get('/logs', (req, res) => {
+    res.status(200).json({ config })
+})
+app.use(express.static(staticPath));
 
 app.get("/", (req, res) => {
     res.sendFile(path.join(staticPath, "index.html"));
 })
 
-app.get('/logs', (req, res) => {
-    res.status(200).json({ config })
-})
 
 //signup
 app.get("/signup", (req, res) => {
