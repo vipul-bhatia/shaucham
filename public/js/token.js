@@ -30,14 +30,27 @@ const compareToken = (token, key) => {
 
 // send data function
 const sendData = (path, data) => {
+    console.log('Sending data:', data);
     fetch(path, {
         method: 'post',
         headers: new Headers({ 'Content-Type': 'application/json' }),
         body: JSON.stringify(data)
-    }).then((res) => res.json())
+    })
+        .then((res) => {
+            console.log('Response status:', res.status);
+            return res.text();
+        })
+        .then(text => {
+            console.log('Raw response:', text);
+            return JSON.parse(text);
+        })
         .then(response => {
+            console.log('Parsed response:', response);
             processData(response);
         })
+        .catch(error => {
+            console.error('Error:', error);
+        });
 }
 
 const processData = (data) => {

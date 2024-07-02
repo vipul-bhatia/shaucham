@@ -51,7 +51,7 @@ app.get("/", (req, res) => {
 
 //signup
 app.get("/signup", (req, res) => {
-    res.sendFile(path.join(staticPath, "signup.html"));
+    res.sendFile(path.join(staticPath, "signup"));
 })
 
 app.post('/signup', (req, res) => {
