@@ -9,17 +9,17 @@ const nodemailer = require('nodemailer');
 require('dotenv').config();
 
 const config = {
-    "type": process.env.TYPE,
-    "project_id": process.env.PROJECT_ID,
-    "private_key_id": process.env.PRIVATE_KEY_ID,
-    "private_key": process.env.PRIVATE_KEY.replace(/\\n/g, '\n'),
-    "client_email": process.env.CLIENT_EMAIL,
-    "client_id": process.env.CLIENT_ID,
-    "auth_uri": process.env.AUTH_URI,
-    "token_uri": process.env.TOKEN_URI,
-    "auth_provider_x509_cert_url": process.env.AUTH_PROVIDER_X509_CERT_URL,
-    "client_x509_cert_url": process.env.CLIENT_X509_CERT_URL,
-    "universe_domain": process.env.UNIVERSE_DOMAIN
+    "type": 'service_account',
+    "project_id": 'shaucham-web',
+    "private_key_id": '8663865fcfe1c6a051757c98e48bf20b3dbb1ac3',
+    "private_key": '-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCnkgTesPYVEoU9\nXTRZhvMHC8PwEpUUnklxESvVh+TNoDvfz9RaI/Z0Yo0ZNQ5qLOPKsUYf35PLnSqB\nEZVW0HLQm1Ql1S4V5l6qN9nsDWyADGoDYwvkdK1VP1MLBzOvnN4/JR8mBnpHFFQW\n00OMDI6L27C6T93RFYmlOnDGpjyHXJi7YkFfrES4Fw7rRIHj3Au8U7iL0QIXT09C\nSodk/cmuMoN/1li9oRnyAt4GMGxe44EwFzxN+i8zGjjPz1m2mNolMKXIKUf/zVth\nf7nBqier0ZH6gSlSnMX0rhDZLNqPBsM0gBETVsUe9sVl4GqPOMKa9uoBdVRUDt1/\nn/SPqwl/AgMBAAECggEAGxoHNpspWbQin4+dAWPNl5SkDoZ63RhSqXpM/B6b91PU\nizi6UA/j8uPjjTGjELIM74HnZQ1MgpB7SN+2pxFUmH+exvWpG/qj0eTxlnd/VmBr\nnvucd0kVpaV1wWFbTypQWacf2A8RJMDZbs2hbZu0TFNuTFvRdNkGZ5ZBmidVv9CL\nFBF5MYo4lewsdeH0IdVKQBUpRKhVdLt43SW9tWFDzxrqRHdh4CW5Z647xo06ZIDe\nkgGdZHDM/+lgUvp6QB+0ZjUq5EYTXry9KPOGsOVz+3FgJCheTZ8hzcsBqI9k+MAP\nMzZu98TY/Aa+e9dB9+uTLPde7DtsgeTUGJMYGTU3QQKBgQDqO+WfpVHlsX1tvJi2\njhglgGrRWgQ1D4A7Wndcx8O15BlirrCzSgTp+67DEUYMNtYSkeuvdXj+oF9A6w7z\nKk7jeW0n3Uf1hoJSV8r5asnqNO/hmUTmyVcVXss6bzE1FAhbMvLDSY9t7R3QI47S\n/0EpEkuufw2+rMsKNUsJzQ8svwKBgQC3JEmOTBnPROTnBEYvpM4HdVJIQQmZ3Nss\n9eD8JIPxH00hdbpReV4zI/j+HLrrCZQKvWse89Dkny8JnNTaE7kJ1naBNB9Ezujc\nDNEy9Hb8/i9cLDvA77cARvAAabEf1+4kG6UjOjLxr8JEVLd+iVk1Q/eXidXI5XwT\nZ4boXKGTQQKBgQDR6ZPDGnjmi8WITnfdQkJJeWhA7ZbPpnCYwF4v+6Zcn2pQkZUx\nV6hHuJHJpvVLhOkcA0FgILqqFjbHCuB+8u931B4Kl7ghRMYN3Te9hgIlrgM7/gtN\neCpesHEYkQVcN/O1J1d/w7CSJumM2hDo7nAKyqagXqSGuHvNTi1NP0PWKQKBgAHL\nRzUvpakUIbHpps5crPABxDaU/IUXVsZP+k4+BVTdW6ISRyr5J2UU2yGSInqe82ZP\niLca6Fb1AD713FfujYd9JFgLrKq95CYTshDvuCKuUsRyYnt3XbGRAFTgtC19rgWI\nh8uajFk1wY9tzQZeThNpgQlo/kEjjl2aTAYGskaBAoGBAJ4V9y46BOUKCdpJKW3Q\n7G1Ql9+zbTkXuDEqhBSh0X46CIjbJXVXHEutSugeZztCQvCEzAmHJPgbEWRm23ID\n8IOfJ57PMwJpnWYDkG59KQifJmsobtKAAOcPbHoCmNylvbQW++SJzRulVkn6Xho7\nsZh1UroApMLTuyZnrxSvGJFf\n-----END PRIVATE KEY-----\n',
+    "client_email": 'firebase-adminsdk-g8lbd@shaucham-web.iam.gserviceaccount.com',
+    "client_id": '109364799977036116019',
+    "auth_uri": 'https://accounts.google.com/o/oauth2/auth',
+    "token_uri": 'https://oauth2.googleapis.com/token',
+    "auth_provider_x509_cert_url": 'https://www.googleapis.com/oauth2/v1/certs',
+    "client_x509_cert_url": 'https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-g8lbd%40shaucham-web.iam.gserviceaccount.com',
+    "universe_domain": 'googleapis.com'
 };
 
 console.log(config, 'configgggg')
