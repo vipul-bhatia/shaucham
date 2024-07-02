@@ -22,6 +22,8 @@ const config = {
     "universe_domain": process.env.UNIVERSE_DOMAIN
 };
 
+console.log(config, 'configgggg')
+
 
 
 admin.initializeApp({

@@ -34,7 +34,7 @@ const sendData = (path, data) => {
         method: 'post',
         headers: new Headers({ 'Content-Type': 'application/json' }),
         body: JSON.stringify(data)
-    }).then((res) => res.json({ sucess: true }))
+    }).then((res) => res.json())
         .then(response => {
             processData(response);
         })
