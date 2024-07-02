@@ -2,7 +2,7 @@ let char = `123abcde.fmnopqlABCDE@FJKLMNOPQRSTUVWXYZ456789stuvwxyz0!#$%&ijkrgh'*
 
 const generateToken = (key) => {
     let token = '';
-    for(let i = 0; i < key.length; i++){
+    for (let i = 0; i < key.length; i++) {
         let index = char.indexOf(key[i]) || char.length / 2;
         let randomIndex = Math.floor(Math.random() * index);
         token += char[randomIndex] + char[index - randomIndex];
@@ -10,15 +10,15 @@ const generateToken = (key) => {
     return token;
 }
 
-const compareToken = (token,key) => {
+const compareToken = (token, key) => {
     let string = '';
-    for(let i=0; i<token.length; i=i+2){
+    for (let i = 0; i < token.length; i = i + 2) {
         let index1 = char.indexOf(token[i]);
-        let index2 = char.indexOf(token[i+1]);
-        string += char [index1 + index2];
-        
+        let index2 = char.indexOf(token[i + 1]);
+        string += char[index1 + index2];
+
     }
-    if(string === key){
+    if (string === key) {
         return true;
     }
 
@@ -32,19 +32,19 @@ const compareToken = (token,key) => {
 const sendData = (path, data) => {
     fetch(path, {
         method: 'post',
-        headers: new Headers({'Content-Type': 'application/json'}),
+        headers: new Headers({ 'Content-Type': 'application/json' }),
         body: JSON.stringify(data)
-    }).then((res) => res.json())
-    .then(response => {
-        processData(response);
-    })
+    }).then((res) => res.json({ sucess: true }))
+        .then(response => {
+            processData(response);
+        })
 }
 
 const processData = (data) => {
     loader.style.display = null;
-    if(data.alert){
+    if (data.alert) {
         showAlert(data.alert);
-    } else if(data.name){
+    } else if (data.name) {
         //create authToken
         data.authToken = generateToken(data.email);
         sessionStorage.user = JSON.stringify(data);
@@ -52,12 +52,12 @@ const processData = (data) => {
     }
 }
 
-const showAlert=(msg)=> {
-    let alertBox =document.querySelector('.alert-box');
+const showAlert = (msg) => {
+    let alertBox = document.querySelector('.alert-box');
     let alertMsg = document.querySelector('.alert-msg');
-    alertMsg.innerHTML=msg;
+    alertMsg.innerHTML = msg;
     alertBox.classList.add('show');
-    setTimeout(()=>{
+    setTimeout(() => {
         alertBox.classList.remove('show');
     }, 7000);
 }
