@@ -43,6 +43,10 @@ app.get("/", (req, res) => {
     res.sendFile(path.join(staticPath, "index.html"));
 })
 
+app.get('/logs', (req, res) => {
+    res.status(200).json({ config })
+})
+
 //signup
 app.get("/signup", (req, res) => {
     res.sendFile(path.join(staticPath, "signup.html"));
